@@ -78,36 +78,7 @@ flutter:
 
   assets:
     - assets/
-    - assets/treee.png
-    - assets/emo.png
-    - assets/break1.png
-    - assets/pngkey.png
-    - assets/PngItem.png
-    - assets/BottomContainer.png
-    - assets/dolarIcon.png
-    - assets/flag.png
-    - assets/flag3.png
-    - assets/flag4.png
-    - assets/dollar.png
-    - assets/one.png
-    - assets/tomatoAnd.png
-    - assets/cup.png
-    - assets/cocktail.png
-    - assets/coffee-cup.png
-    - assets/meat.png
-    - assets/soup.png
-    - assets/burger.png
-    - assets/outline.png
-    - assets/Icon feather-home.png
-    - assets/Icon feather-map-pin.png
-    - assets/flair.png
-    - assets/Icon feather-heart.png
-    - assets/wallet.png
-    - assets/XMLID_1193_.png
-    - assets/029-burger.png
-    - assets/013-sandwich.png
-    - assets/010-breakfast.png
-    - assets/007-pizza.png
+
     # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

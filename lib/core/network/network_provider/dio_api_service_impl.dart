@@ -29,11 +29,13 @@ class DioApiServiceImpl extends ApiService {
 
   @override
   Future<Either<ApiFaliureModel, ApiSuccessModel>> get(
-    String path, {
-    Map<String, dynamic> queryParameters = const {},
-  }) async {
+      String path, {
+        Map<String, dynamic> queryParameters = const {},
+      }) async {
+    Dio dio = Dio(BaseOptions(baseUrl: ApiConstants.baseUrl));
     try {
-      final Response response = await _dio.get(
+      log('');
+      final Response response = await dio.get(
         path,
         queryParameters: queryParameters,
       );

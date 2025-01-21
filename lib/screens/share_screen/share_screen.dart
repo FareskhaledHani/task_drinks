@@ -175,7 +175,7 @@ class ShareScreen extends StatelessWidget {
             top: MediaQuery.of(context).size.height * 0.02,
             left: MediaQuery.of(context).size.width * 0.13,
             right: MediaQuery.of(context).size.width * 0.13,
-            child: const Image(image: AssetImage('assets/air.png'))),
+            child: const Image(image: AssetImage('assets/flair.png'))),
       ],
     );
   }

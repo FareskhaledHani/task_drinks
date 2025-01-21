@@ -7,6 +7,4 @@ class CategoryItem {
     required this.title,
     required this.imagePath,
   });
-
-
 }

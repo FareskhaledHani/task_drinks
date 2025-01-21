@@ -18,8 +18,8 @@ class CustomContainerItemsAndPoints extends StatelessWidget {
     return Stack(
       children: [
         Container(
-          height: 114.h,
-          width: 80.w,
+          height: 120.h,
+          width: 90.w,
           color: Colors.white,// عرض الحاوية
           // اللون الأساسي (90%)
         ),
@@ -27,7 +27,7 @@ class CustomContainerItemsAndPoints extends StatelessWidget {
           bottom: 0, // تحديد الجزء العلوي
           child: Container(
             height: 90.h, // 10% من الارتفاع الكلي
-            width: 80.w,
+            width: 85.w,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
               //

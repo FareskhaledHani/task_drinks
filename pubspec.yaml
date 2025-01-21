@@ -104,6 +104,10 @@ flutter:
     - assets/Icon feather-heart.png
     - assets/wallet.png
     - assets/XMLID_1193_.png
+    - assets/029-burger.png
+    - assets/013-sandwich.png
+    - assets/010-breakfast.png
+    - assets/007-pizza.png
     # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

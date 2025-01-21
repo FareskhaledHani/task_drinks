@@ -1,5 +1,5 @@
-
 import '../domain/entity/product_entity.dart';
+
 class ProductModel extends ProductEntity {
   ProductModel({
     required this.id,
@@ -9,7 +9,12 @@ class ProductModel extends ProductEntity {
     required this.category,
     required this.image,
     required this.rating,
-  }) : super(photo: image ?? '', name: title ?? "No Name", desc: description ?? "", priceEntity: price ?? 0.0);
+  }) : super(
+    photo: image ?? '',
+    name: title ?? "No Name",
+    desc: description ?? "",
+    priceEntity: price ?? 0.0,
+  );
 
   final int? id;
   final String? title;
@@ -23,7 +28,7 @@ class ProductModel extends ProductEntity {
     return ProductModel(
       id: json["id"],
       title: json["title"],
-      price: json["price"],
+      price: json["price"] != null ? (json["price"] as num).toDouble() : null,
       description: json["description"],
       category: json["category"],
       image: json["image"],
@@ -43,7 +48,7 @@ class Rating {
 
   factory Rating.fromJson(Map<String, dynamic> json) {
     return Rating(
-      rate: json["rate"],
+      rate: json["rate"] != null ? (json["rate"] as num).toDouble() : null,
       count: json["count"],
     );
   }

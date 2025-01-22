@@ -10,8 +10,8 @@ import 'generated/l10n.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await setupSingeltonServices();
-  runApp(const MyApp());
   await ScreenUtil.ensureScreenSize();
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {

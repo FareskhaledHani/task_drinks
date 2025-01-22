@@ -12,7 +12,7 @@ class PayScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: ColorsManager.mainBlue,
-        title: Text('Pay Screen'),
+        title: Text('Pay Screen',style: TextStyles.font18DarkBlueSemiBold,),
       ),
       body:  Column(
         crossAxisAlignment: CrossAxisAlignment.center,
